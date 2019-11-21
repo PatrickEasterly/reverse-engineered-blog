@@ -1,0 +1,29 @@
+/* html {
+    background-image: url(../images/snow-covered-mountain-during-sunrise-618833.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    color: rgb(0, 0, 0)
+} */
+
+p {
+    color: #5D5D5D;
+}
+thead {
+    color: #FFFFFF;
+    background: #4285f4;
+    font: 18px Lato;
+}
+table {
+    width: 100%;
+    /* border-collapse: collapse; */
+}
+
+.column-1 {
+    text-align: left;
+}
+.column-2 {
+    text-align: right;
+}

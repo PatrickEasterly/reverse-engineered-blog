@@ -23,7 +23,12 @@ table {
 
 .column-1 {
     text-align: left;
+    width: 50%;
 }
 .column-2 {
     text-align: right;
+    width: 50%;
+}
+.odd-row {
+    background: #f9f9f9;
 }

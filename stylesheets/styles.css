@@ -7,18 +7,21 @@
 * {
     color: rgb(0, 0, 0)
 } */
-
+html {
+    font-family: 'Roboto', sans-serif;
+}
 p {
     color: #5D5D5D;
 }
 thead {
     color: #FFFFFF;
     background: #4285f4;
-    font: 18px Lato;
+    /* font: 18px Lato; */
 }
 table {
     width: 100%;
     /* border-collapse: collapse; */
+    border-spacing: 0px;
 }
 
 .column-1 {
@@ -31,4 +34,48 @@ table {
 }
 .odd-row {
     background: #f9f9f9;
+}
+td {
+    padding: 8px;
+    /* font: 16px Lato; */
+}
+
+/* Descendant selector--an element anywhere inside another element */
+/* tr:hover td {
+    color: white;
+    font-size: 2em;
+} */
+tr:hover td {
+    background-color: #f3f3f3;
+}
+th, td {
+    padding: 8px;
+}
+
+.sidebar-heading {
+    text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 auto;
+    display: block;
+}
+ul a:link, ul a:visited {
+    text-transform: uppercase;
+    color: #57ad68;
+    text-decoration: none;
+}
+ul a:hover {
+    text-decoration: underline;
+}
+a {
+    /* display: block; */
+    /* makes the anchor tag take up as much horizontal space as possible */
+}
+li {
+    outline: 1px solid red;
+    display: block;
+    padding: 18px;
+    margin: 10px;
 }
